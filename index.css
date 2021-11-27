@@ -454,6 +454,7 @@ nav {
     width: 38px;
     margin-right: 10px;
     border-radius: 50%;
+    background: #fff;
 }
 .settings-links a {
     display: flex;
