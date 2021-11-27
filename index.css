@@ -23,13 +23,13 @@ nav {
     align-items: center;
     justify-content: space-between;
     background: var(--nav-color);
-    padding: 5px 5%;
+    padding: 0 3%;
     top: 0;
     z-index: 100;
     position: sticky;
 }
 .logo {
-    width: 60px;
+    width: 100px;
     margin-right: 45px;
 }
 .nav-right, .nav-left {
@@ -296,6 +296,7 @@ nav {
     width: 45px;
     border-radius: 50%;
     margin-right: 10px;
+    background: #fff;
 }
 .user-profile p {
     margin-bottom: -5px;
