@@ -122,7 +122,7 @@ nav {
     border-radius: 4px;
     color: #626262;
 }
-@media (max-width: 1000px) {
+@media (max-width: 650px) {
     .right-sidebar {
         width: 95%;       
 }
