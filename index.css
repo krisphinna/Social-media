@@ -62,7 +62,7 @@ nav {
 }
 @media (max-width: 650px) {
     .search-box {
-        width: 180px;
+        width: 115px;
     }        
 }
 .search-box img {
@@ -122,9 +122,16 @@ nav {
     border-radius: 4px;
     color: #626262;
 }
-
+@media (max-width: 1000px) {
+    .right-sidebar {
+        width: 95%;       
+}
 .main-content {
     flex-basis: 48%;
+}
+@media (max-width: 650px) {
+    .main-content {
+        width: 92%;       
 }
 .imp-links a, .shortcut-links a {
     text-decoration: none;
@@ -240,7 +247,7 @@ nav {
     position: relative;
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 10px;      
 }
 .story img {
     position: absolute;
@@ -287,6 +294,11 @@ nav {
     border-radius: 6px;
     padding: 20px;
     color: #626262
+}
+@media (max-width: 650px) {
+    .white-post-container {
+        width: 100%;
+    }        
 }
 .user-profile {
     display: flex;
@@ -405,6 +417,11 @@ nav {
     padding: 10px 0 20px;
     font-size: 15px;
 }
+@media (max-width: 650px) {
+    .footer {
+        color: var(--body-color);
+    }      
+}
 .settings-menu {
     position: absolute;
     width: 20%;
@@ -420,17 +437,13 @@ nav {
 }
 @media (max-width: 650px) {
     .settings-menu {
-        width: 60%;
-        height: 50vh;
-        overflow: scroll;
+        width: 63%;
+        height: 90vh;
+        overflow: auto;
     }        
 }
 .settings-menu-height {
     max-height: 450px;
-}
-@media (max-width: 650px) {
-    
-        
 }
 .user-profile a {
     font-size: 12px;
@@ -463,7 +476,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
-    color: #626262
+    color: #626262;
 }
 #dark-btn {
     position: absolute;
